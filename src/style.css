@@ -1,1 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import './common/theme.css';
+
+/* 수동으로 다크모드 적용할때 */
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+/* :root{
+  --color-likelion: oklch(0.72 0.11 178);
+} */

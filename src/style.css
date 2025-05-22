@@ -20,6 +20,10 @@
   --color-likelion-gray: #f5f5f5;
 
   --autofit: repeat(auto-fit, minmax(240px, 1fr));
+  --headerHeight: 50px;
+  --halfWidth: 50vw;
+  --navHeight: calc(100dvh - var(--headerHeight));
+  --navShadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
 }
 
 @layer components {

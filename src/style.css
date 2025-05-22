@@ -22,4 +22,17 @@
     margin-bottom: 1em;
     border: 5px solid blue;
   }
+  .like {
+    @apply border-4 border-blue-500 p-4 my-4 bg-violet-200;
+  }
+}
+
+/* @layer utilitiy {
+  .shape-circle {
+    shape-outside: circle(50%);
+  } 
+}*/
+/* 단축 버전 */
+@utility shape-circle {
+  shape-outside: circle(50%);
 }

@@ -7,3 +7,19 @@
 /* :root{
   --color-likelion: oklch(0.72 0.11 178);
 } */
+
+@theme {
+  --color-like: lightblue;
+  --color-lion: lightgreen;
+
+  --building: url(../src/assets/images/building.avif);
+}
+
+@layer components {
+  .bootcamp {
+    background-color: orange;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 5px solid blue;
+  }
+}

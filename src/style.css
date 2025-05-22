@@ -13,6 +13,13 @@
   --color-lion: lightgreen;
 
   --building: url(../src/assets/images/building.avif);
+  --pretendard: 'Pretendard Variable', Pretendard, sans-serif;
+  --color-likelion-bl: #303030;
+  --color-likelion-green: #58dc76;
+  --color-likelion-red: #b02c20;
+  --color-likelion-gray: #f5f5f5;
+
+  --autofit: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 @layer components {
